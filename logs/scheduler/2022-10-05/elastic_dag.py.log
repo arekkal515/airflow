@@ -1,0 +1,827 @@
+[2022-10-05 18:12:11,495] {processor.py:153} INFO - Started process (PID=2659) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:12:11,496] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:12:11,497] {logging_mixin.py:115} INFO - [2022-10-05 18:12:11,497] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:12:11,530] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:12:11,735] {logging_mixin.py:115} INFO - [2022-10-05 18:12:11,735] {manager.py:508} INFO - Created Permission View: can edit on DAG:elastic_dag
+[2022-10-05 18:12:11,749] {logging_mixin.py:115} INFO - [2022-10-05 18:12:11,749] {manager.py:508} INFO - Created Permission View: can delete on DAG:elastic_dag
+[2022-10-05 18:12:11,760] {logging_mixin.py:115} INFO - [2022-10-05 18:12:11,760] {manager.py:508} INFO - Created Permission View: can read on DAG:elastic_dag
+[2022-10-05 18:12:11,761] {logging_mixin.py:115} INFO - [2022-10-05 18:12:11,761] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:12:11,771] {logging_mixin.py:115} INFO - [2022-10-05 18:12:11,771] {dag.py:2390} INFO - Creating ORM DAG for elastic_dag
+[2022-10-05 18:12:11,786] {logging_mixin.py:115} INFO - [2022-10-05 18:12:11,786] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:12:11,809] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.316 seconds
+[2022-10-05 18:12:41,932] {processor.py:153} INFO - Started process (PID=2700) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:12:41,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:12:41,935] {logging_mixin.py:115} INFO - [2022-10-05 18:12:41,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:12:41,958] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:12:42,002] {logging_mixin.py:115} INFO - [2022-10-05 18:12:42,001] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:12:42,049] {logging_mixin.py:115} INFO - [2022-10-05 18:12:42,049] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:12:42,086] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.160 seconds
+[2022-10-05 18:13:12,228] {processor.py:153} INFO - Started process (PID=2727) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:13:12,229] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:13:12,230] {logging_mixin.py:115} INFO - [2022-10-05 18:13:12,230] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:13:12,258] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:13:12,290] {logging_mixin.py:115} INFO - [2022-10-05 18:13:12,290] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:13:12,320] {logging_mixin.py:115} INFO - [2022-10-05 18:13:12,320] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:13:12,349] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.126 seconds
+[2022-10-05 18:13:42,786] {processor.py:153} INFO - Started process (PID=2766) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:13:42,787] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:13:42,789] {logging_mixin.py:115} INFO - [2022-10-05 18:13:42,788] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:13:42,818] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:13:42,858] {logging_mixin.py:115} INFO - [2022-10-05 18:13:42,857] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:13:42,897] {logging_mixin.py:115} INFO - [2022-10-05 18:13:42,897] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:13:42,918] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.136 seconds
+[2022-10-05 18:14:13,036] {processor.py:153} INFO - Started process (PID=2804) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:14:13,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:14:13,039] {logging_mixin.py:115} INFO - [2022-10-05 18:14:13,039] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:14:13,068] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:14:13,106] {logging_mixin.py:115} INFO - [2022-10-05 18:14:13,106] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:14:13,143] {logging_mixin.py:115} INFO - [2022-10-05 18:14:13,143] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:14:13,162] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.129 seconds
+[2022-10-05 18:14:43,246] {processor.py:153} INFO - Started process (PID=2835) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:14:43,248] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:14:43,250] {logging_mixin.py:115} INFO - [2022-10-05 18:14:43,249] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:14:43,285] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:14:43,320] {logging_mixin.py:115} INFO - [2022-10-05 18:14:43,319] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:14:43,352] {logging_mixin.py:115} INFO - [2022-10-05 18:14:43,351] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:14:43,372] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.130 seconds
+[2022-10-05 18:15:13,468] {processor.py:153} INFO - Started process (PID=2865) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:15:13,469] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:15:13,470] {logging_mixin.py:115} INFO - [2022-10-05 18:15:13,470] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:15:13,496] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:15:13,531] {logging_mixin.py:115} INFO - [2022-10-05 18:15:13,531] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:15:13,566] {logging_mixin.py:115} INFO - [2022-10-05 18:15:13,566] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:15:13,583] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.119 seconds
+[2022-10-05 18:15:43,797] {processor.py:153} INFO - Started process (PID=2902) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:15:43,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:15:43,801] {logging_mixin.py:115} INFO - [2022-10-05 18:15:43,800] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:15:43,849] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:15:43,930] {logging_mixin.py:115} INFO - [2022-10-05 18:15:43,930] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:15:44,013] {logging_mixin.py:115} INFO - [2022-10-05 18:15:44,012] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:15:44,043] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.253 seconds
+[2022-10-05 18:16:14,201] {processor.py:153} INFO - Started process (PID=2931) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:16:14,202] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:16:14,204] {logging_mixin.py:115} INFO - [2022-10-05 18:16:14,204] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:16:14,247] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:16:14,307] {logging_mixin.py:115} INFO - [2022-10-05 18:16:14,307] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:16:14,382] {logging_mixin.py:115} INFO - [2022-10-05 18:16:14,382] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:16:14,405] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.215 seconds
+[2022-10-05 18:16:44,604] {processor.py:153} INFO - Started process (PID=2969) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:16:44,610] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:16:44,614] {logging_mixin.py:115} INFO - [2022-10-05 18:16:44,614] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:16:44,658] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:16:44,690] {logging_mixin.py:115} INFO - [2022-10-05 18:16:44,690] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:16:44,751] {logging_mixin.py:115} INFO - [2022-10-05 18:16:44,751] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:16:44,786] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.188 seconds
+[2022-10-05 18:17:14,938] {processor.py:153} INFO - Started process (PID=2999) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:17:14,939] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:17:14,941] {logging_mixin.py:115} INFO - [2022-10-05 18:17:14,940] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:17:14,999] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:17:15,073] {logging_mixin.py:115} INFO - [2022-10-05 18:17:15,073] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:17:15,150] {logging_mixin.py:115} INFO - [2022-10-05 18:17:15,150] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:17:15,191] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.259 seconds
+[2022-10-05 18:17:45,971] {processor.py:153} INFO - Started process (PID=3037) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:17:45,972] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:17:45,972] {logging_mixin.py:115} INFO - [2022-10-05 18:17:45,972] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:17:45,996] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:17:46,026] {logging_mixin.py:115} INFO - [2022-10-05 18:17:46,026] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:17:46,052] {logging_mixin.py:115} INFO - [2022-10-05 18:17:46,052] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:17:46,069] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.101 seconds
+[2022-10-05 18:18:16,343] {processor.py:153} INFO - Started process (PID=3066) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:18:16,345] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:18:16,346] {logging_mixin.py:115} INFO - [2022-10-05 18:18:16,346] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:18:16,380] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:18:16,429] {logging_mixin.py:115} INFO - [2022-10-05 18:18:16,429] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:18:16,469] {logging_mixin.py:115} INFO - [2022-10-05 18:18:16,469] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:18:16,487] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.148 seconds
+[2022-10-05 18:18:46,789] {processor.py:153} INFO - Started process (PID=3104) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:18:46,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:18:46,793] {logging_mixin.py:115} INFO - [2022-10-05 18:18:46,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:18:46,846] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:18:46,877] {logging_mixin.py:115} INFO - [2022-10-05 18:18:46,877] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:18:46,903] {logging_mixin.py:115} INFO - [2022-10-05 18:18:46,903] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:18:46,917] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.133 seconds
+[2022-10-05 18:19:17,001] {processor.py:153} INFO - Started process (PID=3135) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:19:17,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:19:17,003] {logging_mixin.py:115} INFO - [2022-10-05 18:19:17,002] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:19:17,022] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:19:17,047] {logging_mixin.py:115} INFO - [2022-10-05 18:19:17,047] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:19:17,073] {logging_mixin.py:115} INFO - [2022-10-05 18:19:17,073] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:19:17,095] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.097 seconds
+[2022-10-05 18:19:47,144] {processor.py:153} INFO - Started process (PID=3174) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:19:47,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:19:47,145] {logging_mixin.py:115} INFO - [2022-10-05 18:19:47,145] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:19:47,165] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:19:47,193] {logging_mixin.py:115} INFO - [2022-10-05 18:19:47,193] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:19:47,219] {logging_mixin.py:115} INFO - [2022-10-05 18:19:47,219] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:19:47,235] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.095 seconds
+[2022-10-05 18:20:17,402] {processor.py:153} INFO - Started process (PID=3209) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:20:17,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:20:17,405] {logging_mixin.py:115} INFO - [2022-10-05 18:20:17,405] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:20:17,429] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:20:17,489] {logging_mixin.py:115} INFO - [2022-10-05 18:20:17,489] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:20:17,542] {logging_mixin.py:115} INFO - [2022-10-05 18:20:17,542] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:20:17,570] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.175 seconds
+[2022-10-05 18:20:47,658] {processor.py:153} INFO - Started process (PID=3240) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:20:47,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:20:47,660] {logging_mixin.py:115} INFO - [2022-10-05 18:20:47,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:20:47,691] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:20:47,725] {logging_mixin.py:115} INFO - [2022-10-05 18:20:47,725] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:20:47,762] {logging_mixin.py:115} INFO - [2022-10-05 18:20:47,762] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:20:47,784] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.131 seconds
+[2022-10-05 18:21:18,093] {processor.py:153} INFO - Started process (PID=3269) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:21:18,094] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:21:18,095] {logging_mixin.py:115} INFO - [2022-10-05 18:21:18,095] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:21:18,118] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:21:18,145] {logging_mixin.py:115} INFO - [2022-10-05 18:21:18,145] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:21:18,170] {logging_mixin.py:115} INFO - [2022-10-05 18:21:18,170] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:21:18,186] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.098 seconds
+[2022-10-05 18:21:48,610] {processor.py:153} INFO - Started process (PID=3307) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:21:48,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:21:48,615] {logging_mixin.py:115} INFO - [2022-10-05 18:21:48,615] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:21:48,642] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:21:48,680] {logging_mixin.py:115} INFO - [2022-10-05 18:21:48,680] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:21:48,715] {logging_mixin.py:115} INFO - [2022-10-05 18:21:48,714] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:21:48,743] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.137 seconds
+[2022-10-05 18:22:19,150] {processor.py:153} INFO - Started process (PID=3346) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:22:19,151] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:22:19,152] {logging_mixin.py:115} INFO - [2022-10-05 18:22:19,152] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:22:19,173] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:22:19,199] {logging_mixin.py:115} INFO - [2022-10-05 18:22:19,199] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:22:19,226] {logging_mixin.py:115} INFO - [2022-10-05 18:22:19,225] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:22:19,249] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.103 seconds
+[2022-10-05 18:22:49,308] {processor.py:153} INFO - Started process (PID=3375) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:22:49,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:22:49,310] {logging_mixin.py:115} INFO - [2022-10-05 18:22:49,310] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:22:49,336] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:22:49,364] {logging_mixin.py:115} INFO - [2022-10-05 18:22:49,364] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:22:49,393] {logging_mixin.py:115} INFO - [2022-10-05 18:22:49,393] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:22:49,409] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.105 seconds
+[2022-10-05 18:23:19,494] {processor.py:153} INFO - Started process (PID=3414) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:23:19,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:23:19,495] {logging_mixin.py:115} INFO - [2022-10-05 18:23:19,495] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:23:19,528] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:23:19,583] {logging_mixin.py:115} INFO - [2022-10-05 18:23:19,582] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:23:19,635] {logging_mixin.py:115} INFO - [2022-10-05 18:23:19,634] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:23:19,662] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.173 seconds
+[2022-10-05 18:23:49,711] {processor.py:153} INFO - Started process (PID=3449) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:23:49,712] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:23:49,713] {logging_mixin.py:115} INFO - [2022-10-05 18:23:49,713] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:23:49,742] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:23:49,778] {logging_mixin.py:115} INFO - [2022-10-05 18:23:49,777] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:23:49,808] {logging_mixin.py:115} INFO - [2022-10-05 18:23:49,808] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:23:49,826] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.119 seconds
+[2022-10-05 18:24:20,031] {processor.py:153} INFO - Started process (PID=3481) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:24:20,032] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:24:20,033] {logging_mixin.py:115} INFO - [2022-10-05 18:24:20,033] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:24:20,062] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:24:20,087] {logging_mixin.py:115} INFO - [2022-10-05 18:24:20,086] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:24:20,113] {logging_mixin.py:115} INFO - [2022-10-05 18:24:20,113] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:24:20,128] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.102 seconds
+[2022-10-05 18:24:50,439] {processor.py:153} INFO - Started process (PID=3519) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:24:50,440] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:24:50,441] {logging_mixin.py:115} INFO - [2022-10-05 18:24:50,441] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:24:50,471] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:24:50,505] {logging_mixin.py:115} INFO - [2022-10-05 18:24:50,505] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:24:50,539] {logging_mixin.py:115} INFO - [2022-10-05 18:24:50,539] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:24:50,556] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.121 seconds
+[2022-10-05 18:25:20,697] {processor.py:153} INFO - Started process (PID=3548) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:25:20,697] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:25:20,698] {logging_mixin.py:115} INFO - [2022-10-05 18:25:20,698] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:25:20,728] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:25:20,757] {logging_mixin.py:115} INFO - [2022-10-05 18:25:20,757] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:25:20,785] {logging_mixin.py:115} INFO - [2022-10-05 18:25:20,785] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:25:20,800] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.106 seconds
+[2022-10-05 18:25:51,453] {processor.py:153} INFO - Started process (PID=3586) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:25:51,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:25:51,455] {logging_mixin.py:115} INFO - [2022-10-05 18:25:51,455] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:25:51,497] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:25:51,545] {logging_mixin.py:115} INFO - [2022-10-05 18:25:51,545] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:25:51,598] {logging_mixin.py:115} INFO - [2022-10-05 18:25:51,598] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:25:51,633] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.186 seconds
+[2022-10-05 18:26:21,835] {processor.py:153} INFO - Started process (PID=3615) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:26:21,836] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:26:21,837] {logging_mixin.py:115} INFO - [2022-10-05 18:26:21,837] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:26:21,884] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:26:21,930] {logging_mixin.py:115} INFO - [2022-10-05 18:26:21,930] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:26:21,969] {logging_mixin.py:115} INFO - [2022-10-05 18:26:21,969] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:26:21,990] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.161 seconds
+[2022-10-05 18:26:52,215] {processor.py:153} INFO - Started process (PID=3653) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:26:52,216] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:26:52,218] {logging_mixin.py:115} INFO - [2022-10-05 18:26:52,218] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:26:52,247] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:26:52,280] {logging_mixin.py:115} INFO - [2022-10-05 18:26:52,280] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:26:52,308] {logging_mixin.py:115} INFO - [2022-10-05 18:26:52,308] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:26:52,321] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.111 seconds
+[2022-10-05 18:27:22,404] {processor.py:153} INFO - Started process (PID=3684) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:27:22,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:27:22,406] {logging_mixin.py:115} INFO - [2022-10-05 18:27:22,406] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:27:22,440] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:27:22,477] {logging_mixin.py:115} INFO - [2022-10-05 18:27:22,477] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:27:22,514] {logging_mixin.py:115} INFO - [2022-10-05 18:27:22,513] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:27:22,550] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.150 seconds
+[2022-10-05 18:27:52,858] {processor.py:153} INFO - Started process (PID=3720) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:27:52,859] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:27:52,860] {logging_mixin.py:115} INFO - [2022-10-05 18:27:52,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:27:52,889] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:27:52,924] {logging_mixin.py:115} INFO - [2022-10-05 18:27:52,923] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:27:52,949] {logging_mixin.py:115} INFO - [2022-10-05 18:27:52,949] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:27:52,979] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.125 seconds
+[2022-10-05 18:28:23,428] {processor.py:153} INFO - Started process (PID=3759) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:28:23,429] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:28:23,430] {logging_mixin.py:115} INFO - [2022-10-05 18:28:23,430] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:28:23,454] {processor.py:651} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:28:23,484] {logging_mixin.py:115} INFO - [2022-10-05 18:28:23,484] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-05 18:28:23,509] {logging_mixin.py:115} INFO - [2022-10-05 18:28:23,509] {dag.py:2919} INFO - Setting next_dagrun for elastic_dag to 2022-10-04T00:00:00+00:00, run_after=2022-10-05T00:00:00+00:00
+[2022-10-05 18:28:23,539] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.116 seconds
+[2022-10-05 18:28:32,678] {processor.py:153} INFO - Started process (PID=3770) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:28:32,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:28:32,679] {logging_mixin.py:115} INFO - [2022-10-05 18:28:32,679] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:28:33,533] {logging_mixin.py:115} INFO - [2022-10-05 18:28:33,520] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:28:33,536] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:28:33,560] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.886 seconds
+[2022-10-05 18:29:04,446] {processor.py:153} INFO - Started process (PID=3805) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:29:04,447] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:29:04,449] {logging_mixin.py:115} INFO - [2022-10-05 18:29:04,449] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:29:04,985] {logging_mixin.py:115} INFO - [2022-10-05 18:29:04,974] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:29:04,988] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:29:05,009] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.569 seconds
+[2022-10-05 18:29:35,682] {processor.py:153} INFO - Started process (PID=3846) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:29:35,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:29:35,684] {logging_mixin.py:115} INFO - [2022-10-05 18:29:35,684] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:29:36,094] {logging_mixin.py:115} INFO - [2022-10-05 18:29:36,083] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:29:36,097] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:29:36,140] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.460 seconds
+[2022-10-05 18:30:06,290] {processor.py:153} INFO - Started process (PID=3877) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:30:06,291] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:30:06,292] {logging_mixin.py:115} INFO - [2022-10-05 18:30:06,291] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:30:06,803] {logging_mixin.py:115} INFO - [2022-10-05 18:30:06,793] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:30:06,807] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:30:06,838] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.552 seconds
+[2022-10-05 18:30:37,636] {processor.py:153} INFO - Started process (PID=3918) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:30:37,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:30:37,638] {logging_mixin.py:115} INFO - [2022-10-05 18:30:37,638] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:30:38,099] {logging_mixin.py:115} INFO - [2022-10-05 18:30:38,085] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:30:38,102] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:30:38,119] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.486 seconds
+[2022-10-05 18:31:08,313] {processor.py:153} INFO - Started process (PID=3959) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:31:08,314] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:31:08,316] {logging_mixin.py:115} INFO - [2022-10-05 18:31:08,315] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:31:09,117] {logging_mixin.py:115} INFO - [2022-10-05 18:31:09,106] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:31:09,121] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:31:09,148] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.841 seconds
+[2022-10-05 18:31:39,557] {processor.py:153} INFO - Started process (PID=3990) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:31:39,559] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:31:39,560] {logging_mixin.py:115} INFO - [2022-10-05 18:31:39,559] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:31:39,986] {logging_mixin.py:115} INFO - [2022-10-05 18:31:39,974] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:31:39,989] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:31:40,008] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.455 seconds
+[2022-10-05 18:32:10,066] {processor.py:153} INFO - Started process (PID=4031) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:32:10,067] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:32:10,068] {logging_mixin.py:115} INFO - [2022-10-05 18:32:10,068] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:32:10,466] {logging_mixin.py:115} INFO - [2022-10-05 18:32:10,453] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:32:10,469] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:32:10,490] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.428 seconds
+[2022-10-05 18:32:40,611] {processor.py:153} INFO - Started process (PID=4069) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:32:40,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:32:40,613] {logging_mixin.py:115} INFO - [2022-10-05 18:32:40,613] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:32:41,019] {logging_mixin.py:115} INFO - [2022-10-05 18:32:41,010] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:32:41,022] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:32:41,057] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.448 seconds
+[2022-10-05 18:33:11,346] {processor.py:153} INFO - Started process (PID=4102) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:33:11,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:33:11,349] {logging_mixin.py:115} INFO - [2022-10-05 18:33:11,349] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:33:11,806] {logging_mixin.py:115} INFO - [2022-10-05 18:33:11,791] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:33:11,810] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:33:11,840] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.499 seconds
+[2022-10-05 18:33:42,086] {processor.py:153} INFO - Started process (PID=4142) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:33:42,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:33:42,087] {logging_mixin.py:115} INFO - [2022-10-05 18:33:42,087] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:33:42,476] {logging_mixin.py:115} INFO - [2022-10-05 18:33:42,467] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:33:42,478] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:33:42,515] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.433 seconds
+[2022-10-05 18:34:12,870] {processor.py:153} INFO - Started process (PID=4182) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:34:12,871] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:34:12,872] {logging_mixin.py:115} INFO - [2022-10-05 18:34:12,871] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:34:13,248] {logging_mixin.py:115} INFO - [2022-10-05 18:34:13,237] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:34:13,251] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:34:13,278] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.411 seconds
+[2022-10-05 18:34:43,660] {processor.py:153} INFO - Started process (PID=4213) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:34:43,661] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:34:43,662] {logging_mixin.py:115} INFO - [2022-10-05 18:34:43,662] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:34:44,092] {logging_mixin.py:115} INFO - [2022-10-05 18:34:44,080] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:34:44,095] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:34:44,116] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.459 seconds
+[2022-10-05 18:35:14,449] {processor.py:153} INFO - Started process (PID=4253) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:35:14,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:35:14,451] {logging_mixin.py:115} INFO - [2022-10-05 18:35:14,451] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:35:14,940] {logging_mixin.py:115} INFO - [2022-10-05 18:35:14,927] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:35:14,947] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:35:14,973] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.530 seconds
+[2022-10-05 18:35:45,170] {processor.py:153} INFO - Started process (PID=4284) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:35:45,172] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:35:45,173] {logging_mixin.py:115} INFO - [2022-10-05 18:35:45,173] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:35:45,633] {logging_mixin.py:115} INFO - [2022-10-05 18:35:45,621] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:35:45,637] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:35:45,660] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.494 seconds
+[2022-10-05 18:36:15,851] {processor.py:153} INFO - Started process (PID=4324) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:36:15,852] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:36:15,854] {logging_mixin.py:115} INFO - [2022-10-05 18:36:15,854] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:36:16,275] {logging_mixin.py:115} INFO - [2022-10-05 18:36:16,267] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:36:16,277] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:36:16,308] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.464 seconds
+[2022-10-05 18:36:46,664] {processor.py:153} INFO - Started process (PID=4364) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:36:46,665] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:36:46,666] {logging_mixin.py:115} INFO - [2022-10-05 18:36:46,666] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:36:47,085] {logging_mixin.py:115} INFO - [2022-10-05 18:36:47,074] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:36:47,089] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:36:47,107] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.446 seconds
+[2022-10-05 18:37:17,365] {processor.py:153} INFO - Started process (PID=4395) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:37:17,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:37:17,370] {logging_mixin.py:115} INFO - [2022-10-05 18:37:17,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:37:17,952] {logging_mixin.py:115} INFO - [2022-10-05 18:37:17,942] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:37:17,956] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:37:17,980] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.620 seconds
+[2022-10-05 18:37:48,142] {processor.py:153} INFO - Started process (PID=4435) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:37:48,143] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:37:48,144] {logging_mixin.py:115} INFO - [2022-10-05 18:37:48,144] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:37:48,543] {logging_mixin.py:115} INFO - [2022-10-05 18:37:48,534] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:37:48,545] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:37:48,570] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.433 seconds
+[2022-10-05 18:38:18,765] {processor.py:153} INFO - Started process (PID=4466) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:38:18,767] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:38:18,771] {logging_mixin.py:115} INFO - [2022-10-05 18:38:18,771] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:38:20,369] {logging_mixin.py:115} INFO - [2022-10-05 18:38:20,337] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:38:20,375] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:38:20,464] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 1.714 seconds
+[2022-10-05 18:38:50,588] {processor.py:153} INFO - Started process (PID=4506) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:38:50,589] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:38:50,591] {logging_mixin.py:115} INFO - [2022-10-05 18:38:50,591] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:38:51,044] {logging_mixin.py:115} INFO - [2022-10-05 18:38:51,032] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:38:51,047] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:38:51,073] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.492 seconds
+[2022-10-05 18:39:21,197] {processor.py:153} INFO - Started process (PID=4546) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:39:21,198] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:39:21,199] {logging_mixin.py:115} INFO - [2022-10-05 18:39:21,199] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:39:21,617] {logging_mixin.py:115} INFO - [2022-10-05 18:39:21,607] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:39:21,620] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:39:21,652] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.460 seconds
+[2022-10-05 18:39:51,879] {processor.py:153} INFO - Started process (PID=4577) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:39:51,880] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:39:51,881] {logging_mixin.py:115} INFO - [2022-10-05 18:39:51,881] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:39:52,300] {logging_mixin.py:115} INFO - [2022-10-05 18:39:52,288] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:39:52,303] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:39:52,322] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.447 seconds
+[2022-10-05 18:40:22,411] {processor.py:153} INFO - Started process (PID=4617) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:40:22,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:40:22,413] {logging_mixin.py:115} INFO - [2022-10-05 18:40:22,412] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:40:22,815] {logging_mixin.py:115} INFO - [2022-10-05 18:40:22,806] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:40:22,819] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:40:22,844] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.437 seconds
+[2022-10-05 18:40:53,141] {processor.py:153} INFO - Started process (PID=4648) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:40:53,142] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:40:53,143] {logging_mixin.py:115} INFO - [2022-10-05 18:40:53,143] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:40:53,608] {logging_mixin.py:115} INFO - [2022-10-05 18:40:53,597] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:40:53,612] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:40:53,632] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.495 seconds
+[2022-10-05 18:41:23,914] {processor.py:153} INFO - Started process (PID=4688) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:41:23,916] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:41:23,918] {logging_mixin.py:115} INFO - [2022-10-05 18:41:23,917] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:41:24,976] {logging_mixin.py:115} INFO - [2022-10-05 18:41:24,953] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:41:24,981] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:41:25,026] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 1.119 seconds
+[2022-10-05 18:41:55,475] {processor.py:153} INFO - Started process (PID=4719) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:41:55,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:41:55,478] {logging_mixin.py:115} INFO - [2022-10-05 18:41:55,477] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:41:55,914] {logging_mixin.py:115} INFO - [2022-10-05 18:41:55,902] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:41:55,918] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:41:55,958] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.486 seconds
+[2022-10-05 18:42:26,333] {processor.py:153} INFO - Started process (PID=4759) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:42:26,334] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:42:26,335] {logging_mixin.py:115} INFO - [2022-10-05 18:42:26,335] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:42:26,825] {logging_mixin.py:115} INFO - [2022-10-05 18:42:26,811] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:42:26,829] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:42:26,861] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.531 seconds
+[2022-10-05 18:42:57,335] {processor.py:153} INFO - Started process (PID=4790) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:42:57,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:42:57,337] {logging_mixin.py:115} INFO - [2022-10-05 18:42:57,336] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:42:57,747] {logging_mixin.py:115} INFO - [2022-10-05 18:42:57,738] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:42:57,749] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:42:57,767] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.436 seconds
+[2022-10-05 18:43:27,915] {processor.py:153} INFO - Started process (PID=4830) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:43:27,917] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:43:27,918] {logging_mixin.py:115} INFO - [2022-10-05 18:43:27,918] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:43:28,645] {logging_mixin.py:115} INFO - [2022-10-05 18:43:28,634] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:43:28,649] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:43:28,682] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.772 seconds
+[2022-10-05 18:43:59,115] {processor.py:153} INFO - Started process (PID=4861) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:43:59,116] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:43:59,118] {logging_mixin.py:115} INFO - [2022-10-05 18:43:59,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:43:59,550] {logging_mixin.py:115} INFO - [2022-10-05 18:43:59,538] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:43:59,555] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:43:59,578] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.467 seconds
+[2022-10-05 18:44:29,951] {processor.py:153} INFO - Started process (PID=4901) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:44:29,952] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:44:29,953] {logging_mixin.py:115} INFO - [2022-10-05 18:44:29,953] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:44:30,593] {logging_mixin.py:115} INFO - [2022-10-05 18:44:30,583] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:44:30,597] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:44:30,618] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.671 seconds
+[2022-10-05 18:45:00,955] {processor.py:153} INFO - Started process (PID=4932) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:45:00,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:45:00,958] {logging_mixin.py:115} INFO - [2022-10-05 18:45:00,958] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:45:01,560] {logging_mixin.py:115} INFO - [2022-10-05 18:45:01,549] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:45:01,564] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:45:01,585] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.636 seconds
+[2022-10-05 18:45:31,708] {processor.py:153} INFO - Started process (PID=4972) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:45:31,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:45:31,710] {logging_mixin.py:115} INFO - [2022-10-05 18:45:31,710] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:45:32,204] {logging_mixin.py:115} INFO - [2022-10-05 18:45:32,192] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:45:32,208] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:45:32,228] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.522 seconds
+[2022-10-05 18:46:02,448] {processor.py:153} INFO - Started process (PID=5012) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:46:02,449] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:46:02,450] {logging_mixin.py:115} INFO - [2022-10-05 18:46:02,450] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:46:02,889] {logging_mixin.py:115} INFO - [2022-10-05 18:46:02,877] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:46:02,893] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:46:02,914] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.469 seconds
+[2022-10-05 18:46:32,967] {processor.py:153} INFO - Started process (PID=5043) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:46:32,967] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:46:32,968] {logging_mixin.py:115} INFO - [2022-10-05 18:46:32,968] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:46:33,501] {logging_mixin.py:115} INFO - [2022-10-05 18:46:33,486] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:46:33,506] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:46:33,532] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.569 seconds
+[2022-10-05 18:47:03,647] {processor.py:153} INFO - Started process (PID=5083) to work on /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:47:03,648] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-10-05 18:47:03,648] {logging_mixin.py:115} INFO - [2022-10-05 18:47:03,648] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:47:04,149] {logging_mixin.py:115} INFO - [2022-10-05 18:47:04,136] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from hooks.elastic.elastic_hook import ElasticHook # import created hook
+  File "/opt/airflow/plugins/hooks/elastic/elastic_hook.py", line 4, in <module>
+    from elasticsearch import elasticsearch
+ImportError: cannot import name 'elasticsearch' from 'elasticsearch' (/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py)
+[2022-10-05 18:47:04,153] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-10-05 18:47:04,172] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.530 seconds

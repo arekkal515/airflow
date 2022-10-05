@@ -1,0 +1,294 @@
+[2022-06-27 02:14:05,475] {processor.py:153} INFO - Started process (PID=9882) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:14:05,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:14:05,494] {logging_mixin.py:115} INFO - [2022-06-27 02:14:05,494] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:14:07,073] {logging_mixin.py:115} INFO - [2022-06-27 02:14:06,978] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:14:07,081] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:14:07,301] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 1.836 seconds
+[2022-06-27 02:14:37,565] {processor.py:153} INFO - Started process (PID=9940) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:14:37,566] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:14:37,567] {logging_mixin.py:115} INFO - [2022-06-27 02:14:37,567] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:14:38,122] {logging_mixin.py:115} INFO - [2022-06-27 02:14:38,112] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:14:38,126] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:14:38,169] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.613 seconds
+[2022-06-27 02:15:08,326] {processor.py:153} INFO - Started process (PID=9994) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:15:08,327] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:15:08,329] {logging_mixin.py:115} INFO - [2022-06-27 02:15:08,329] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:15:09,067] {logging_mixin.py:115} INFO - [2022-06-27 02:15:09,058] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:15:09,069] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:15:09,110] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.793 seconds
+[2022-06-27 02:15:39,247] {processor.py:153} INFO - Started process (PID=10046) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:15:39,249] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:15:39,250] {logging_mixin.py:115} INFO - [2022-06-27 02:15:39,250] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:15:39,680] {logging_mixin.py:115} INFO - [2022-06-27 02:15:39,670] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:15:39,683] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:15:39,748] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.506 seconds
+[2022-06-27 02:16:09,796] {processor.py:153} INFO - Started process (PID=10109) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:16:09,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:16:09,799] {logging_mixin.py:115} INFO - [2022-06-27 02:16:09,799] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:16:10,322] {logging_mixin.py:115} INFO - [2022-06-27 02:16:10,315] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:16:10,324] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:16:10,392] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.602 seconds
+[2022-06-27 02:16:40,732] {processor.py:153} INFO - Started process (PID=10163) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:16:40,733] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:16:40,735] {logging_mixin.py:115} INFO - [2022-06-27 02:16:40,735] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:16:41,185] {logging_mixin.py:115} INFO - [2022-06-27 02:16:41,177] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:16:41,187] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:16:41,234] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.508 seconds
+[2022-06-27 02:17:11,537] {processor.py:153} INFO - Started process (PID=10226) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:17:11,538] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:17:11,540] {logging_mixin.py:115} INFO - [2022-06-27 02:17:11,540] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:17:11,995] {logging_mixin.py:115} INFO - [2022-06-27 02:17:11,987] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:17:11,997] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:17:12,032] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.503 seconds
+[2022-06-27 02:17:42,282] {processor.py:153} INFO - Started process (PID=10282) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:17:42,284] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:17:42,285] {logging_mixin.py:115} INFO - [2022-06-27 02:17:42,285] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:17:42,695] {logging_mixin.py:115} INFO - [2022-06-27 02:17:42,688] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:17:42,698] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:17:42,733] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.458 seconds
+[2022-06-27 02:18:13,158] {processor.py:153} INFO - Started process (PID=10343) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:18:13,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:18:13,162] {logging_mixin.py:115} INFO - [2022-06-27 02:18:13,161] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:18:13,724] {logging_mixin.py:115} INFO - [2022-06-27 02:18:13,715] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:18:13,726] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:18:13,787] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.636 seconds
+[2022-06-27 02:18:43,962] {processor.py:153} INFO - Started process (PID=10399) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:18:43,964] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:18:43,965] {logging_mixin.py:115} INFO - [2022-06-27 02:18:43,965] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:18:44,417] {logging_mixin.py:115} INFO - [2022-06-27 02:18:44,408] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:18:44,419] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:18:44,474] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.517 seconds
+[2022-06-27 02:19:14,547] {processor.py:153} INFO - Started process (PID=10463) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:19:14,548] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:19:14,550] {logging_mixin.py:115} INFO - [2022-06-27 02:19:14,550] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:19:14,967] {logging_mixin.py:115} INFO - [2022-06-27 02:19:14,957] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:19:14,970] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:19:15,023] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.484 seconds
+[2022-06-27 02:19:45,301] {processor.py:153} INFO - Started process (PID=10518) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:19:45,302] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:19:45,304] {logging_mixin.py:115} INFO - [2022-06-27 02:19:45,303] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:19:45,869] {logging_mixin.py:115} INFO - [2022-06-27 02:19:45,860] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:19:45,871] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:19:45,921] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.624 seconds
+[2022-06-27 02:20:16,677] {processor.py:153} INFO - Started process (PID=10581) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:20:16,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:20:16,681] {logging_mixin.py:115} INFO - [2022-06-27 02:20:16,680] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:20:17,184] {logging_mixin.py:115} INFO - [2022-06-27 02:20:17,175] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:20:17,187] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:20:17,231] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.563 seconds
+[2022-06-27 02:20:47,458] {processor.py:153} INFO - Started process (PID=10637) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:20:47,460] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:20:47,461] {logging_mixin.py:115} INFO - [2022-06-27 02:20:47,461] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:20:47,936] {logging_mixin.py:115} INFO - [2022-06-27 02:20:47,926] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:20:47,939] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:20:47,982] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.531 seconds
+[2022-06-27 02:21:18,084] {processor.py:153} INFO - Started process (PID=10702) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:21:18,086] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:21:18,087] {logging_mixin.py:115} INFO - [2022-06-27 02:21:18,087] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:21:18,531] {logging_mixin.py:115} INFO - [2022-06-27 02:21:18,520] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:21:18,535] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:21:18,579] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.502 seconds
+[2022-06-27 02:21:48,735] {processor.py:153} INFO - Started process (PID=10756) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:21:48,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:21:48,738] {logging_mixin.py:115} INFO - [2022-06-27 02:21:48,738] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:21:49,191] {logging_mixin.py:115} INFO - [2022-06-27 02:21:49,182] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:21:49,194] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:21:49,232] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.504 seconds
+[2022-06-27 02:22:19,330] {processor.py:153} INFO - Started process (PID=10819) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:22:19,331] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:22:19,332] {logging_mixin.py:115} INFO - [2022-06-27 02:22:19,332] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:22:19,738] {logging_mixin.py:115} INFO - [2022-06-27 02:22:19,729] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:22:19,741] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:22:19,777] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.453 seconds
+[2022-06-27 02:22:49,888] {processor.py:153} INFO - Started process (PID=10873) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:22:49,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:22:49,890] {logging_mixin.py:115} INFO - [2022-06-27 02:22:49,890] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:22:50,329] {logging_mixin.py:115} INFO - [2022-06-27 02:22:50,322] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:22:50,332] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:22:50,395] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.512 seconds
+[2022-06-27 02:23:21,309] {processor.py:153} INFO - Started process (PID=10936) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:23:21,314] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:23:21,319] {logging_mixin.py:115} INFO - [2022-06-27 02:23:21,319] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:23:21,821] {logging_mixin.py:115} INFO - [2022-06-27 02:23:21,813] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:23:21,823] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:23:21,877] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.588 seconds
+[2022-06-27 02:23:51,998] {processor.py:153} INFO - Started process (PID=10992) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:23:52,000] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:23:52,002] {logging_mixin.py:115} INFO - [2022-06-27 02:23:52,001] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:23:52,607] {logging_mixin.py:115} INFO - [2022-06-27 02:23:52,599] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:23:52,610] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:23:52,671] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.679 seconds
+[2022-06-27 02:24:22,921] {processor.py:153} INFO - Started process (PID=11057) to work on /opt/airflow/dags/user_processing.py
+[2022-06-27 02:24:22,922] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-06-27 02:24:22,924] {logging_mixin.py:115} INFO - [2022-06-27 02:24:22,924] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:24:23,355] {logging_mixin.py:115} INFO - [2022-06-27 02:24:23,348] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 81, in <module>
+    create_table >> is_api_available >> extract_user >> processed_user >> store_user
+NameError: name 'processed_user' is not defined
+[2022-06-27 02:24:23,358] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-06-27 02:24:23,397] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.481 seconds
